@@ -35,7 +35,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+# Function to load the data
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -179,7 +179,7 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+# Function for output 5 lines of raw data
 def rawdata(df):
     begin= 0
     end= 5
@@ -201,10 +201,7 @@ def rawdata(df):
                 else:
                     break
 
-
-
-
-
+#Refer to functions:
 
 def main():
     while True:
