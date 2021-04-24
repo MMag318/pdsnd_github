@@ -7,7 +7,7 @@
 Github project bikeshare.py
 
 ### Description
-Describe what your project is about and what it does
+Pythoncode to analyse bikeshare-data
 
 ### Files used
 Include the files used
