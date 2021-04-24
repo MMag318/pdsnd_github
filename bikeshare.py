@@ -200,10 +200,7 @@ def rawdata(df):
                 else:
                     break
 
-
-
-
-
+#Refer to functions:
 
 def main():
     while True:
